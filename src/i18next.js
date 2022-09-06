@@ -25,11 +25,12 @@ i18n
     fallbackLng: "en",
     debug: true,
     whitelist: Languages,
+    lng: "en",
     interpolation: {
       escapeValue: false, // not needed for react as it escapes by default
     },
     backend: {
-      loadPath: "/portfolio/locales/{{en}}/{{jp}}.json",
+      loadPath: "/portfolio/locales/{{lng}}/{{ns}}.json",
     },
   });
 
