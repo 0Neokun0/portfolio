@@ -65,7 +65,6 @@ export const Banner = () => {
                     isVisible ? "animate__animated animate__fadeIn" : ""
                   }
                 >
-                  {/* <span className="tagline">Welcome to my Portfolio</span> */}
                   <h1>
                     {t("Banner.Hi")}{" "}
                     <span
