@@ -1,0 +1,39 @@
+{
+    "Navbar":{
+        "Home":"Home",
+        "Skills":"Skills",
+        "Projects":"Projects",
+        "Connect":"Let’s Connect"
+    },
+    "Banner":{
+        "Hi": "Hi! I'm Aditi",
+        "Introduction":"I am an aspiring Web Developer with a passion for art and learning! I have lived in Japan for three years, and worked for two in the IT field.",
+        "Based": "I am based in Tokyo."
+    },
+    "Skills":{
+        "Experience": "With a Masters degree in Biotechnology, N1 in JLPT(2020),970 in TOEIC(2019), I pretty much like studying. I have an experience in Data Analysis for about two years and use database management system like PostgreSQL on a daily basis. My interest in programming, art and learning has inpired me to be a Web Developer.",
+        "Info": "Below are the skills I have picked up learning web development for a year."
+    },
+    "Projects":{
+        "Title":"Projects",
+        "Description": "This is a collection of the apps, websites and games that I have made to showcase my skills.",
+        "Info": "Click on the Tabs to see all of them!",
+        "Tab1": "Tab 1",
+        "Tab2": "Tab 2",
+        "Tab3": "Tab 3",
+        "Shopping": "REACT SHOPPING WEBSITE",
+        "PhotoGallery": "PHOTO GALLERY",
+        "MemoryGame": "MEMORY GAME",
+        "WeatherApp": "WEATHER APP",
+        "ToDo": "REACT TO-DO",
+        "EtchASketch": "ETCH-A-SKETCH",
+        "Calculator": "CALCULATOR"
+    },
+    "Contact":{
+        "ContactMe":"Get in touch",
+        "Info": "Let's grab a cup of coffee! I am open to job opportunities, feel free to reach out and I will follow up as soon as possible.",
+        "MessageMe": "Message me on",
+        "SendMe": "or send me an",
+        "Mail":""
+    }
+}
