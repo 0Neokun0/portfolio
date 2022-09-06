@@ -8,10 +8,10 @@ export const Footer = () => {
   return (
     <footer className="footer">
       <Container>
-        <Row className="align-items-center">
-          <Col size={12} sm={6} className="text-center text-sm-end">
-            <div className="footer-content">
-              <div className="social-icon social-icon-footer">
+        <Row className="align-items-center justify-content-md-center">
+          <Col size={12} sm={6} className="text-center text-sm-center">
+            <div className="footer-content justify-content-md-center">
+              <div className="social-icon social-icon-footer ">
                 <a
                   href="https://www.linkedin.com/in/aditi-hinge-b2251b18b/"
                   target="_blank"
