@@ -43,7 +43,6 @@ export const NavBar = () => {
               onClick={() => handleClick("en")}
               style={{
                 color: "white",
-                // backgroundColor: "yellow",
                 width: "4em",
               }}
             >
@@ -54,7 +53,6 @@ export const NavBar = () => {
               onClick={() => handleClick("jp")}
               style={{
                 color: "white",
-                // backgroundColor: "yellow",
                 width: "4em",
               }}
             >
