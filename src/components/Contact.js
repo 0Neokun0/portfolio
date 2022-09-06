@@ -32,7 +32,7 @@ export const Contact = () => {
                   }
                 >
                   <h2 className="trial">{t("Contact.ContactMe")}</h2>
-                  <p style={{ textAlign: "center" }}>
+                  <p className="text-center">
                     {t("Contact.Info")}
                     <br></br>
                     {t("Contact.MessageMe")}{" "}
