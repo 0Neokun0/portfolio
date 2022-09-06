@@ -566,10 +566,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
-  /* background: #ffffff; */
   position: relative;
 }
 
@@ -582,20 +578,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #B8B8B8;
   letter-spacing: 0.5px;
   margin-top: 15px;
-  /* text-align:end; */
 }
 .footer-content{
-  /* background-color: #ffffff; */
   position: absolute;
   top: 0;
-  right: 0;
-  margin: 1.5rem 10rem 0 0;
+  margin: 1.5rem 0 0 0;
 }
 
 .social-icon-footer{
-  /* margin-left: 5rem; */
-  /* background-color: #666; */
   display: flex;
   justify-content: space-between;
 }
-
