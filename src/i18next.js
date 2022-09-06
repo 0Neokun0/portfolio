@@ -1,5 +1,15 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
+import translationEN from "../public/locales/en/translation.json";
+import translationJP from "../public/locales/en/translation.json";
+const bothLanguages = {
+  en: {
+    translation: translationEN,
+  },
+  jp: {
+    translation: translationJP,
+  },
+};
 
 import Backend from "i18next-http-backend";
 import LanguageDetector from "i18next-browser-languagedetector";
@@ -29,6 +39,7 @@ i18n
     interpolation: {
       escapeValue: false, // not needed for react as it escapes by default
     },
+    bothLanguages,
     backend: {
       loadPath: "/portfolio/locales/{{lng}}/{{ns}}.json",
     },
