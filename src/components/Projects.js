@@ -90,26 +90,17 @@ export const Projects = () => {
                       id="pills-tab"
                     >
                       <Nav.Item>
-                        <Nav.Link
-                          eventKey="first"
-                          style={{ cursor: "pointer" }}
-                        >
+                        <Nav.Link eventKey="first" role="button">
                           {t("Projects.Tab1")}
                         </Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link
-                          eventKey="second"
-                          style={{ cursor: "pointer" }}
-                        >
+                        <Nav.Link eventKey="second" role="button">
                           {t("Projects.Tab2")}
                         </Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link
-                          eventKey="third"
-                          style={{ cursor: "pointer" }}
-                        >
+                        <Nav.Link eventKey="third" role="button">
                           {t("Projects.Tab3")}
                         </Nav.Link>
                       </Nav.Item>
