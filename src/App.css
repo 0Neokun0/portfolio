@@ -290,7 +290,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 #video-box{
-  /* background-color: #7FE817; */
   width: 100%;
   margin-left: 0;
   padding-left: 0;
@@ -332,21 +331,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .image-box{
-  /* width: 200px;
-  height: 200px; */
-  /* background-color: #B8B8B8; */
   display: flex;
   justify-content: center;
   align-items: center;
-  /* margin-left: 55px; */
 }
 .item{
-  /* background-color: rgb(106, 71, 71); */
-  /* height: 200px; */
-  /* width: 200px; */
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
 
 }
 
@@ -358,10 +349,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   height: 125px;
   width: auto;
 }
-/* #javascript{
-  height: 200px;
-  width: auto;
-} */
 
 .skill-slider .item img {
   width: 70%;
@@ -459,7 +446,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .proj-imgbx::before {
   content: "";
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
-  /* background: linear-gradient(90.21deg, #ffffff -5.91%, #0d0434 111.58%); */
   opacity: 0.85;
   position: absolute;
   width: 100%;
@@ -476,15 +462,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  /* opacity: 0.9; */
 }
 
 .project-icons{
-  /* background-color: #B8B8B8; */
   width: 60%;
-  /* height: 30px; */
   display: flex;
-  /* flex-direction: column; */
   justify-content:center;
   align-items: center;
 }
@@ -533,12 +515,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Contact Css ************/
 .contact {
-  /* background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%); */
-  /* background: linear-gradient(90.21deg, #bdb4b4 -5.91%, #120549 111.58%); */
   background: linear-gradient(90.21deg, #ffffff -5.91%, #0d0434 111.58%);
   padding: 60px 0 200px 0;
-  /* background-color: #FFFFFF; */
-  /* background: white; */
 }
 .contact img {
   width: 92%;
@@ -546,11 +524,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .contact h2 {
 	font-size: 45px;
 	font-weight: 700;
-  /* margin-bottom: 30px; */
-  /* background-color: #4A2FBD; */
   display: flex;
   justify-content: center;
-  /* top: 0; */
 }
 
 /************ Footer Css ************/
