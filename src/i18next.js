@@ -1,18 +1,18 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
-// import translationEN from "../public/locales/en/translation.json";
-// import translationJP from "../public/locales/en/translation.json";
-const bothLanguages = {
-  en: {
-    translation: translationEN,
-  },
-  jp: {
-    translation: translationJP,
-  },
-};
-
 import Backend from "i18next-http-backend";
 import LanguageDetector from "i18next-browser-languagedetector";
+// import translationEN from "../public/locales/en/translation.json";
+// import translationJP from "../public/locales/en/translation.json";
+// const bothLanguages = {
+//   en: {
+//     translation: translationEN,
+//   },
+//   jp: {
+//     translation: translationJP,
+//   },
+// };
+
 // don't want to use this?
 // have a look at the Quick start guide
 // for passing in lng and translations on init
@@ -32,6 +32,7 @@ i18n
   // init i18next
   // for all options read: https://www.i18next.com/overview/configuration-options
   .init({
+    supportedLngs: ["en", "jp"],
     fallbackLng: "en",
     debug: true,
     whitelist: Languages,
@@ -39,7 +40,7 @@ i18n
     interpolation: {
       escapeValue: false, // not needed for react as it escapes by default
     },
-    bothLanguages,
+    // bothLanguages,
     backend: {
       loadPath: "/portfolio/locales/{{lng}}/{{ns}}.json",
     },
