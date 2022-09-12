@@ -334,18 +334,22 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #fff;
+  height: 200px;
+  width: auto;
 }
 .item{
   display: flex;
   flex-direction: column;
-
+  background-color: #4A2FBD;
 }
 
 #firebase,  #html, #javascript{
   height: 150px;
   width: auto;
+  background-color: #7FE817;
 }
-#css, #typescript{
+#css, #typescript, #rest-api{
   height: 125px;
   width: auto;
 }

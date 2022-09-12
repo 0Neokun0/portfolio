@@ -150,7 +150,8 @@ export const Skills = () => {
                     <img
                       src={restAPI}
                       alt="rest-api-logo"
-                      style={{ height: "150px", width: "auto" }}
+                      id="rest-api"
+                      style={{ height: "120px", width: "auto" }}
                     />
                   </div>
 
@@ -161,11 +162,8 @@ export const Skills = () => {
                     <img
                       src={sass}
                       alt="sass-logo"
-                      style={{
-                        minHeight: "150px",
-                        maxHeight: "50px",
-                        width: "auto",
-                      }}
+                      id="sass"
+                      style={{ height: "140px", width: "auto" }}
                     />
                   </div>
                   <h5>SASS</h5>
