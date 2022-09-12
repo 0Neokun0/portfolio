@@ -536,7 +536,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  position: relative;
   background-color: rgb(216, 96, 96);
 }
 
